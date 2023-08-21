@@ -80,9 +80,32 @@ a:hover {
 
 
 
+.my-class2::after {
+    content: "Prefix - ";
+}
+
+
+li::marker {
+    color: blue;
+}
+
+
+::selection {
+    background: green;
+    color: white;
+}
+
+p strong {
+    color: blue;
+}
+
+
+p strong + {
+    color: green;
+}
 
 
 
-
-
-
+.my-class3 * {
+    margin-top: 10px;
+}
