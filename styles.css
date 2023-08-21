@@ -1,0 +1,88 @@
+* {
+    color: hotpink;
+}
+
+section {
+    padding: 2em;
+}
+
+
+article p:first-of-type {
+    color: red;
+    font-size: 1.5em;
+}
+
+
+.my-class {
+    color: red;
+}
+
+.another-class {
+    justify-content: right;
+    align-items: right;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+
+#rad {
+    border: 1px solid blue;
+}
+
+/*
+[data-type='primary'] {
+    color: red;
+} */
+
+
+[data-type] {
+    color: blue;
+}
+
+
+
+/* A href that contains "example.com" */
+[href*='example.com'] {
+    color: red;
+}
+
+/* A href that starts with https */
+[href^='https'] {
+    color: green;
+}
+
+/* A href that ends with .com */
+[href$='.com'] {
+    color: blue;
+}
+
+
+
+strong,
+em,
+.my-class2,
+[lang] {
+    color: greenyellow;
+}
+
+
+
+/* Sets all even paragraphs to have a different background */
+p:nth-child(even) {
+    background: floralwhite;
+}
+
+
+a:hover {
+    outline: 1px dotted green;
+}
+
+
+
+
+
+
+
+
+
+
