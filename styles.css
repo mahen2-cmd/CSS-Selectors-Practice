@@ -109,3 +109,27 @@ p strong + {
 .my-class3 * {
     margin-top: 10px;
 }
+
+.my-class3 ~ {
+    color: yellow
+}
+
+.my-class4 > p {
+    margin-top: 50px;
+}
+
+
+p.my-class4 {
+    color: black;
+}
+
+
+
+p ~ span {
+    color:black;
+}
+
+
+.top > * + *{
+    color:chartreuse
+}
